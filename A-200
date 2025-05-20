@@ -9,7 +9,7 @@ local entity = Creator.createEntity({
     DelayTime = 5, -- Time before starting cycles (seconds)
     HeightOffset = 1,
     CanKill = true,
-    KillRange = 30,
+    KillRange = 0,
     BreakLights = true,
     BackwardsMovement = false,
     FlickerLights = {
@@ -29,8 +29,8 @@ local entity = Creator.createEntity({
     Jumpscare = {
         true, -- Enabled/Disabled
         {
-            Image1 = "rbxassetid://11400868582", -- Image1 url
-            Image2 = "rbxassetid://11400871105", -- Image2 url
+            Image1 = "rbxassetid://134956720047541", -- Image1 url
+            Image2 = "rbxassetid://134956720047541", -- Image2 url
             Shake = true,
             Sound1 = {
                 530591527, -- SoundId
@@ -101,7 +101,7 @@ local function DeathHint(hints, type: string)
 end
 
 DeathHint({
-    "You died to A-200.",
+    "You died to G-95.",
     "It's very fast.",
     "Hide when you hear it!"
 }, "Blue") -- "Blue" or "Yellow"
