@@ -1,0 +1,26 @@
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Mod Siêu Khó",true)
+wait(2) require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Tạo Bởi Minh Hê:)",true)
+
+-- Silence
+coroutine.wrap(function()
+    while true do
+        wait(80)
+         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet("https://pastebin.com/raw/uNnkcsGU"))()
+
+end
+
+end)()
+
+-- A-200
+coroutine.wrap(function()
+    while true do
+        wait(50)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+        loadstring(game:HttpGet('https://pastefy.app/1xxpTxo3/raw'))()
+
+        end
+
+        end)()
